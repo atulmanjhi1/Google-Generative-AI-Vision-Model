@@ -1,0 +1,51 @@
+# Google Generative AI Vision Model
+
+This Python script utilizes the Google Generative AI API to analyze an image and generate content based on it.
+
+## Requirements
+
+- Python 3.x
+- Google Generative AI API key
+- PIL (Python Imaging Library) for image processing
+
+## Installation
+
+1. Install the `google.generativeai` Python package using pip:
+
+
+pip install google.generativeai
+
+
+2. Install PIL (Python Imaging Library) using pip if you haven't already:
+
+pip install Pillow
+
+
+3. Obtain an API key for the Google Generative AI API. You can get one from the Google Cloud Console.
+
+## Usage
+
+1. Run the script using Python:
+
+python image_analysis.py
+
+
+2. The script will prompt you to provide the path to the image you want to analyze. Enter the path and press Enter.
+
+3. The script will use the Google Generative AI API to analyze the image and generate content based on it.
+
+4. The generated content will be printed to the console.
+
+## Configuration
+
+Before running the script, make sure to configure the API key for the Google Generative AI API. You can do this by replacing `'YOUR_API_KEY'` with your actual API key in the `genai.configure(api_key='YOUR_API_KEY')` line of the script.
+
+## Notes
+
+- Ensure that your API key is kept secure and not shared publicly.
+- Be mindful of the usage limits and pricing associated with the Google Generative AI API to avoid unexpected charges.
+- The script requires PIL (Python Imaging Library) to process images. Make sure you have it installed.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
